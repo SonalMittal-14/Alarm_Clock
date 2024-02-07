@@ -1,19 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
-
-body{
-    background-color: #4838d6;
-}
-
-.hide{
+  }
+  body {
+    background-color: #377dff;
+  }
+  .hide {
     display: none;
-}
-
-.wrapper{
+  }
+  .wrapper {
     background-color: #ffffff;
     width: 90%;
     max-width: 31.25em;
@@ -23,31 +20,27 @@ body{
     left: 50%;
     top: 1em;
     border-radius: 0.5em;
-}
-
-.timer-display {
+  }
+  .timer-display {
     font-size: 2.18em;
     text-align: center;
-    font-family: "Roboto Mono";
-}
-
-.inputs{
+    font-family: "Roboto Mono", monospace;
+  }
+  .inputs {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1em;
     margin-top: 2em;
-}
-
-.inputs input{
+  }
+  .inputs input {
     width: 2.8em;
     font-size: 1.3em;
     border: 1px solid #000000;
     border-radius: 0.3em;
     padding: 0.4em 0.2em;
-}
-
-#set{
+  }
+  #set {
     background-color: #377dff;
     border: none;
     padding: 0.9em 1.8em;
@@ -55,19 +48,17 @@ body{
     margin: 1.5em auto 0 auto;
     border-radius: 2em;
     color: #ffffff;
-}
-
-.alarm{
-    display: flex;
+  }
+  .alarm {
+    display: grid;
     grid-template-columns: 8fr 2fr 2fr;
     gap: 1em;
     margin-top: 1.5em;
     align-items: center;
     border-bottom: 1px solid #898f9b;
     padding-bottom: 0.6em;
-}
-
-.alarm input[type="checkbox"]{
+  }
+  .alarm input[type="checkbox"] {
     appearance: none;
     height: 2em;
     width: 3.75em;
@@ -76,9 +67,8 @@ body{
     position: relative;
     cursor: pointer;
     outline: none;
-}
-
-.alarm input[type="checkbox"]:before {
+  }
+  .alarm input[type="checkbox"]:before {
     position: absolute;
     content: "";
     background-color: #757683;
@@ -87,22 +77,19 @@ body{
     border-radius: 50%;
     top: 0.25em;
     left: 0.25em;
-}
-
-.alarm input[type="checkbox"]:checked {
+  }
+  .alarm input[type="checkbox"]:checked {
     background-color: #d2e2ff;
-}
-
-.alarm input[type="checkbox"]:checked:before {
+  }
+  .alarm input[type="checkbox"]:checked:before {
     background-color: #377dff;
     left: 2em;
-}
-
-.deleteButton {
+  }
+  .deleteButton {
     background-color: transparent;
     font-size: 1.5em;
     color: #377dff;
     border: none;
     cursor: pointer;
-}
-
+  }
+  
